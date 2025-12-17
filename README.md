@@ -48,7 +48,9 @@ Initiated by the GBF Foundation, the PTON ecosystem is built on the 
 The core of decentralized science (DeSci) is to use blockchain technology to establish an open and community-driven scientific research model, democratize scientific research, make scientific knowledge accessible to all people, and make the scientific research process transparent. With this as the core, the PTON ecosystem is committed to breaking down barriers to scientific research participation, fund allocation, and achievement transformation, and building a distributed scientific research ecosystem that is transparent and traceable, node co-governance and sharing, and win-win for scientific research stakeholders.
 
 # 2.2 Underlying architecture
-Based on Binance Chain (BSC), a modular design is adopted to build a three-layer architecture of "core layer, service layer, and application layer":Core layer: Solidity language develops smart contracts to realize core functions such as scientific research fund allocation, achievement confirmation, voting decision-making, etc., open source and verifiable, and supports transparent storage and access management of scientific research data.
+Based on Binance Chain (BSC), a modular design is adopted to build a three-layer architecture of "core layer, service layer, and application layer":
+
+Core layer: Solidity language develops smart contracts to realize core functions such as scientific research fund allocation, achievement confirmation, voting decision-making, etc., open source and verifiable, and supports transparent storage and access management of scientific research data.
 ​
 Service layer: Provide basic services such as distributed data storage, crosschain compatibility, security protection, and anchoring the value of scientific research results, build an open on-chain data sharing protocol, and support IP-NFT management.
 ​
