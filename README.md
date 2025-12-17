@@ -1,157 +1,270 @@
-# PTON白皮书
-PTON 生态白皮书：Web3.0+DAO 去中心化科研（DeSci）新范式
+# PTON   Ecological White Paper
+Web3.0+DAO decentralization Scientific research (DeSci) new paradigm
 
-# 第一章 全球市场背景分析
-# 1.1 Web3.0 生态爆发与去中心化科研（DeSci）演进
-Web3.0 与区块链技术深度融合，推动科研体系从“机构中心化”向“社区共治化”转型，去中心化科研（DeSci）成为核心新兴赛道。DeSci 借助区块链、DAO 及代币化工具，重构科研资助、数据共享、成果转化全流程，打破传统科研封闭壁垒，实现“开放协作、价值共享”新范式。
-2007 年斯坦福大学 Folding@Home 项目为 DeSci 奠定雏形，全球 1500 万台 PlayStation 3 用户贡献计算资源助力疾病研究。当前全球科研市场规模超万亿美元，而 DeSci 赛道市值仅约 12 亿美元（Messari Research 数据），仅占加密货币总市值的 0.035%，预计 2030 年将突破 500 亿美元。以太坊占据 DeSci 市场 69% 份额，Solana 近年进展显著，DeSci 正从早期探索迈入规模化应用阶段。
+# 01 Global Market Background Analysis
+# 1.1 The Web3.0 ecosystem has exploded and decentralized scientific research (DeSci) has evolved
+The deep integration of Web3.0 and blockchain technology has promoted the transformation of the scientific research system from "institutional centralization" to "community cogovernance", and decentralized scientific research (DeSci) has become the core emerging track. With the help of blockchain, DAO, and tokenization tools, DeSci reconstructs the entire process of scientific research funding, data sharing, and achievement transformation, breaking down traditional barriers to scientific research and realizing a new paradigm of "open collaboration and value sharing".
 
-# 1.2 行业现存痛点与市场刚需
-传统科研体系及现有平台存在多重结构性短板：
-资金壁垒：巨头机构掌控核心资源，早期、高风险及小众前沿项目难获支持，优质想法折戟“死亡之谷”；
-数据孤岛：科研数据分散存储，跨机构、跨地域共享困难，制约协同创新；
-协作门槛：地域、学科、资源壁垒限制全球科研人员联动，缺乏高效透明协作平台；
-转化低效：知识产权管理复杂、变现渠道狭窄，科研人员难获长期合理回报；
-管理繁琐：项目管理与审计流程低效，缺乏透明度；
-平台局限：技术门槛高、场景覆盖单一，未形成“资金-数据-协作-成果”完整闭环。
-兼具低门槛参与、公平分配、透明协作、安全确权的去中心化科研平台，成为市场迫切刚需。
-
-# 1.3 项目的行业定位与发展契机
-PTON 生态精准把握 DeSci 发展趋势，依托 Web3.0 技术与 DAO 治理优势，打造连接全球科研人员、投资者、资助方与实体经济的核心枢纽，银河系是 PTON 生态的重要组成部分。
-截至 2024 年 7 月，全球活跃 DeSci 项目达 85 个，作为新兴科研资源分配路径，其去中心化资助平台需求日益增长。PTON 生态无需复杂专业背景，让全球科研相关主体平等参与生态建设与价值分配，聚焦生物医药健康、人工智能与大数据等核心领域，破解传统科研资源垄断问题，推动去中心化科研从小众探索走向大众普及。
-
-# 第二章 项目定位与底层架构
-# 2.1 核心定位
-PTON 生态由 GBF 基金会 及新加坡基金会联合香港 Web3.0 协会共同发起，基于币安链（BSC）智能合约构建，深度融合 Web3.0 技术与 DAO 治理理念，定位为“低门槛、高协同、共共享”的 Web3.0 科研协作与创新价值赋能枢纽，银河系是 PTON 生态的重要组成部分。
-去中心化科学（DeSci）核心是利用区块链技术建立开放、社区驱动的科研模式，实现科研民主化，让科学知识全民可及、科研过程透明化。PTON 生态以此为核心，致力于打破科研参与、资金分配与成果转化壁垒，构建透明可追溯、节点共治共享、科研相关方共赢的分布式科研生态。
-
-# 2.2 底层架构
-基于币安链（BSC）采用模块化设计，搭建“核心层-服务层-应用层”三层架构：
-核心层：Solidity 语言开发智能合约，实现科研资金分配、成果确权、投票决策等核心功能，开源可查，同时支持科研数据透明存储与访问权限管理；
-服务层：提供分布式数据存储、跨链兼容、安全防护、科研成果价值锚定等基础服务，搭建开放式链上数据共享协议，支持 IP-NFT 管理；
-应用层：涵盖科研参与、项目治理、资金管理、成果转化等场景，适配多元领域科研需求，实现科研相关方无缝衔接。
-核心技术支撑：高 TPS 保障高并发需求，低 Gas 费降低参与门槛，数据全上链确保可追溯，为科研生态高效运转提供保障。
-
-# 2.3 核心价值
-科研普惠：打破地域、身份、资源限制，实现科研资源与服务全民覆盖；
-创新赋能：为科研人员提供资金支持、数据共享、成果确权、转化变现全链条服务，聚焦前沿领域助力科研突破；
-透明可信：全流程上链，智能合约自动执行，资金分配、数据流转及成果归属公开不可篡改；
-共治共享：以 DAO 治理为核心，赋予科研相关方决策权限，构建“参与-共建-共享”正向循环；
-高效协同：优化协作机制，强化跨地域、跨学科联动，提升生态运转效率。
-
-# 2.4 核心优势
-低门槛接入：简化项目发起、资金申请、数据共享流程，实现“人人可参与、科研易落地”；
-强协同机制：形成“参与-贡献-受益”“研发-确权-转化”双闭环，联动多领域资源实现互补；
-全流程透明：所有科研行为、数据及成果权益上链存证，杜绝暗箱操作与侵权；
-资源背书坚实：发起方汇聚多方资源，提供技术、合规、生态整合及项目对接支持；
-精准场景适配：聚焦生物医药、AI 与大数据等核心领域，提供定制化解决方案。
-
-# 第三章 生态主体与战略合作
-# 3.1 发起方介绍
-PTON 生态由 GBF 基金会 及新加坡基金会联合香港 Web3.0 协会共同发起，三方在区块链研发、科研项目运营、Web3.0 资源整合、科研生态搭建等方面经验深厚。GBF 基金会 及新加坡基金会提供资金与本地化运营保障，香港 Web3.0 协会汇聚顶尖人才与科研资源，保障项目技术先进性与生态可持续性。
-
-# 3.2 核心团队实力
-核心团队由区块链技术、科研项目管理、金融风控、Web3.0 运营、DAO 治理及科研生态运营领域资深专家组成，均拥有 10 年以上相关经验，曾主导多个大型科研协作项目与 Web3.0 生态搭建。技术团队精通主流公链特性，风控团队擅长分布式科研项目风险防控，运营团队具备成熟的全球化落地方法论。
-
-# 3.3 战略合作与资源支撑
-项目已与全球多家 Web3.0 社区、科研机构、技术服务商、合规咨询机构、生物医药企业及科研人员联盟达成深度合作。技术层面联合安全审计机构保障系统安全，合规层面携手国际咨询团队确保全球运营合规，生态层面实现用户流量、科研资源与实体产业资源共享，快速对接多领域科研项目与变现渠道。
-
-# 第四章 生态架构与治理体系
-
-# 4.1 生态架构体系
-构建“技术支撑-生态参与-科研赋能-治理决策-价值共享”五位一体生态架构：
-技术支撑层：以币安链智能合约与 Web3.0 技术为核心，支撑 DeSci 核心功能实现；
-生态参与层：涵盖科研人员、投资者、资助方、节点等多元主体，通过激励机制激活参与热情；
-科研赋能层：聚焦资金申请、数据共享、成果确权与转化变现等科研专属服务；
-治理决策层：以 DAO 组织为核心，保障决策公平透明；
-价值共享层：通过公平分配机制实现生态与科研价值双向共享，形成良性循环，银河系作为 PTON 生态的重要组成部分，深度融入各架构层级协同运转。
-
-# 4.2 DAO 治理机制
-DAO 为 DeSci 提供平等透明的参与平台，解决传统科研体制痛点，PTON 生态 DAO 治理机制核心设计：
-治理权限：所有参与者与科研人员享有平等治理权，权限与生态贡献度、科研价值直接挂钩；
-决策流程：采用“提案-审核-投票-执行”全链上流程，提案审核后开放 7 天投票，支持率达 51% 即生效公示；
-治理工具：专属 DAO 治理 DApp 支持多链钱包登录，提供提案、投票、查询等便捷功能，降低参与门槛。
-核心作用：通过去中心化投票分配资金，智能合约自动分发；提供链上数据共享协议与 IP-NFT 支持；搭建去中心化评审平台，缩短成果审核周期；构建全球化协作平台，实现治理民主化。
-
-# 4.3 生态协同与激励机制
-协同机制：通过节点体系搭建核心运营团队，鼓励用户参与科研协作、反馈建议，支持科研人员产出优质成果，强化全球科研资源联动；
-激励体系：设置参与、贡献、节点、治理及科研专项激励，以生态通证发放，可用于交易、质押、治理投票及生态内消费，完善代币经济学模型。
-
-# 第五章 技术应用与创新
-# 5.1 核心技术创新
-智能合约优化：分层设计+内置校验机制，保障资金分配与科研权益精准，支持模块化升级，可管理科研数据访问权限与 IP-NFT 流转；
-全流程上链存证：科研数据、行为及成果权益实时上链，敏感数据加密保护，保障科研记录完整性与不变性；
-低门槛交互设计：简洁 DApp 界面，用户一键完成参与、投票等操作，科研人员快速实现成果确权与转化；
-跨链协同技术：自主研发跨链协议，支持主流公链资产互通，拓宽科研资源流转渠道；
-科研成果确权技术：依托区块链不可篡改特性，实现科研成果时间、权属精准确权，夯实转化基础。
-
-# 5.2 安全防护体系
-构建多层次安全防护网络：
-智能合约经第三方多轮审计，建立漏洞应急响应机制；
-数据加密存储+分布式备份，核心科研数据脱敏处理；
-部署 DDoS 防护、防火墙等设施，实时监测网络攻击；
-采用“冷钱包+热钱包”分级存储，热钱包多重签名保障资产安全；
-严格执行 KYC/AML 机制，防范违规行为，保护参与者合法权益。
-
-# 第六章 生态落地与应用场景
-# 6.1 核心应用场景
-科研协作：整合资金申请、数据共享、项目管理，打造一站式协作入口，打破地域、学科壁垒，推动跨国跨领域合作；
-创新赋能：提供科研成果确权、价值评估、合规转化服务，聚焦生物医药健康领域（传染病防控、疫苗开发等）与人工智能大数据领域，提供精准支持；
-DAO 治理：覆盖项目立项、资金分配等决策，通过去中心化评审平台保障成果审核公平高效；
-跨链协作：支持主流公链资产互通，整合不同公链 DeSci 资源，实现生态协同，银河系作为 PTON 生态的重要组成部分，在各核心应用场景中承担关键赋能角色。
-
-# 6.2 生态落地与推广
-区域布局：先聚焦东南亚、东亚、北美，搭建科研社群后全球拓展；
-社区运营：通过多语言社区矩阵，定期举办 AMA、科研沙龙等活动，普及 DeSci 理念；
-资源对接：联动 Web3.0 社区、科研机构及实体产业，实现资源互补，精准对接多领域科研项目；
-科研招募：联合知名科研人员发起入驻计划，提供资源与转化激励，壮大生态科研力量。
-
-# 6.3 生态参与保障
-操作优化：简化 DApp 流程，配套新手与科研人员使用指南，降低技术门槛；
-服务支持：24 小时客服响应咨询与反馈，及时解决参与过程中的各类问题；
-安全合规：多层次防护保障权益，智能合约自动结算，同步申请合规资质，提供安全可靠的参与环境。
-
-# 第七章 战略规划与实施路径
-# 7.1 短期目标（1-6 个月）：生态启动与基础夯实
-技术：完成核心智能合约开发、审计与部署，上线 DApp 测试版，搭建基础安全体系与科研成果确权模块；
-市场：启动全球社区，获取 2 万+核心用户与 500+优质科研人员，完成核心区域合规备案；
-生态：发布 DAO 治理规则，招募生态节点，落地基础激励场景与科研赋能初步功能，推进银河系作为 PTON 生态核心组成部分的基础架构搭建。
+In 2007, Stanford University's Folding @ Home project laid the foundation for DeSci, with 15 million PlayStation 3 users worldwide contributing computing resources to help with disease research. The current global scientific research market size exceeds one trillion US dollars, while the market value of the DeSci track is only about $1.2 billion (Messari Research data), accounting for only 0.035% of the total market value of cryptocurrencies, and is expected to exceed $50 billion by 2030. Ethereum accounts for 69% of the DeSci market, and Solana has made significant progress in recent years, and DeSci is moving from early exploration to large-scale application.
+$12 billion - The market value of the DeSci track is approximate
+0.035% - Percentage of total cryptocurrency market capitalization
+$500 billion - It is expected to break through in 2030
+69% - Ethereum holds the DeSci market share
 
 
-# 7.2 中期目标（7-18 个月）：生态扩张与规模提升
-技术：上线 DApp 正式版，实现跨链技术落地，优化合约性能与科研成果转化功能；
-市场：用户突破 50 万+，核心节点达 1000+，科研人员规模突破 1 万+，拓展 3-5 个重点区域；
-生态：丰富应用场景，与 10+ Web3.0 项目、5+ 实体产业、3+ 大型科研机构达成合作，深化重点领域场景落地，完善银河系在 PTON 生态中的功能落地与协同机制。
-
-# 7.3 长期目标（19-36 个月）：全球引领与价值落地
-市场：成为全球领先的去中心化科研与创新赋能平台，用户突破 1000 万+，科研人员规模突破 10 万+，覆盖 100+ 国家；
-技术：探索 AI 与 DAO 融合，构建专属 Layer2 扩容方案，优化科研价值评估与成果转化匹配技术；
-生态：形成完善闭环，通证成为 Web3.0 科研领域核心价值载体，服务超 100 万中小企业及科研相关群体，成为全球科研生态与去中心化金融融合的标杆，推动银河系成为 PTON 生态中极具影响力的核心板块，助力生态全球引领地位确立。
-
-# 第八章 风险控制与合规布局
-# 8.1 监管合规风险应对
-建立专业合规团队，跟踪全球监管政策变化；按地区申请合规资质与相关牌照；严格执行 KYC/AML 机制，对接反洗钱数据库；如实披露风险，明确通证 utility token 属性，规范科研成果转化流程；引导用户与科研人员遵守所在地法律法规。
+# 1.2 Existing pain points and market needs in the industry
 
 
-# 8.2 技术安全风险防控
-完善合约开发与审计流程，定期第三方检测；优化安全防护体系，部署先进监测工具，重点保障科研数据与成果权益安全；设立漏洞奖励基金，建立快速响应修复机制；部署多区域灾备数据中心，定期开展灾难恢复演练。
+There are multiple structural shortcomings in the traditional scientific research system and existing platforms:
 
-# 8.3 市场与运营风险应对
-强化生态价值建设与科研生态粘性，引导用户理性参与；构建差异化生态壁垒，密切关注行业竞争动态与科研需求变化；优化产品体验与服务，完善激励机制，提升用户与科研人员粘性；建立多元化合作体系，明确合作权责与利益分配，保障科研成果转化渠道稳定。
+Financial barriers: giant institutions control core resources, early-stage, high-risk and niche cutting-edge projects are difficult to support, and high-quality ideas are the "valley of death";
 
-# 第九章 愿景与使命
-# 9.1 核心使命与价值导向
-核心使命：以 Web3.0 技术与 DAO 治理为核心，构建公平、透明、普惠的去中心化科研生态，打造高效、安全的创新价值赋能体系，让全球用户平等享有科研资源，让每一份科研价值都得到公平回报，推动科研普惠与创新赋能全球化，银河系作为 PTON 生态的重要组成部分，将全程承载这一使命落地。
-价值导向：坚守“技术向善、生态共赢、公平普惠、创新赋能”原则，让 Web3.0 技术服务大众与科研人员，让科研回归本质，促进全球科研协同、资源公平分配与创新生态繁荣。
+Data islands: the decentralized storage of scientific research data, the difficulty of cross-institutional and cross-regional sharing, and the restriction of collaborative innovation;
 
-# 9.2 长期愿景与行业影响
-长期愿景：成为 Web3.0 时代全球领先的去中心化科研与创新赋能双标杆，深度连接数字资产、实体经济与科研创新，构建开放包容的全球科研协作与价值共享网络，推动 DeSci 模式成为全球科研领域主流协作范式，银河系将成为 PTON 生态实现这一愿景的核心支撑力量。
-行业影响：破解传统科研参与壁垒与成果转化困境，提供可复制的科研普惠与创新赋能融合模式；推动 DAO 治理在科研领域普及，促进区块链与实体经济、科研产业深度融合，改变全球科研资源分配格局，激发科研创新活力。
+Collaboration threshold: Geographical, discipline, and resource barriers restrict the linkage of global researchers, and lack of efficient and transparent collaboration platforms;
 
-# 第十章 免责声明
-1. 本白皮书仅供参考，不构成投资建议、收益承诺或法律要约，仅为项目技术与生态规划说明。
-2. 项目基于区块链技术构建，存在技术迭代、市场波动、监管变化等不确定性，用户与科研人员需充分认知风险。
-3. 去中心化科研行业风险高，用户需基于自身认知与风险承受能力自主决策，科研人员应理性评估成果转化收益，平台不对相关损失承担责任。
-4. 用户与科研人员参与需遵守所在地法律法规，严禁非法资金流入、成果侵权等违规行为，否则自行承担法律责任。
-5. 本白皮书内容可能调整，最终解释权归项目方所有，具体以官方公告为准，相关决策风险由行为人自行承担。
-6. 区块链与去中心化科研行业尚处发展阶段，存在未知风险，平台尽力防控但无法完全规避，用户与科研人员需理性参与。
+Inefficient transformation: complex intellectual property management, narrow monetization channels, and difficult long-term reasonable returns for scientific researchers;
+
+Cumbersome management: inefficient project management and audit processes, lack of transparency;
+
+Platform limitations: The technical threshold is high, the scenario coverage is single, and a complete closed loop of "capital-data-collaboration-results" has not been formed.
+
+A decentralized scientific research platform with low threshold participation, fair distribution, transparent collaboration, and secure confirmation of rights has become an urgent need in the market.
+
+# 1.3 The industry positioning and development opportunities of the project
+
+
+The PTON ecosystem accurately grasps the development trend of DeSci, relying on Web3.0 technology and DAO governance advantages to create a core hub connecting global researchers, investors, funders and the real economy, and the galaxy is an important part of the PTON ecosystem.
+
+As of July 2024, there are 85 active DeSci projects worldwide, and as an emerging scientific research resource allocation path, the demand for decentralized funding platforms is growing. The PTON ecosystem does not require complex professional backgrounds, enabling global scientific research-related entities to participate equally in ecological construction and value distribution, focusing on core areas such as biomedical health, artificial intelligence, and big data, solving the monopoly problem of traditional scientific research resources, and promoting decentralized scientific research from segmented exploration to popularization.
+
+
+# 02 Project Positioning and Underlying Architecture
+
+
+# 2.1 Core positioning
+Initiated by the GBF Foundation, the PTON ecosystem is built on the Binance Chain (BSC) smart contract, deeply integrating Web3.0 technology and DAO governance concepts, and is positioned as a Web3.0 scientific research collaboration and innovation value empowerment hub with "low threshold, high collaboration, and co-sharing".
+
+The core of decentralized science (DeSci) is to use blockchain technology to establish an open and community-driven scientific research model, democratize scientific research, make scientific knowledge accessible to all people, and make the scientific research process transparent. With this as the core, the PTON ecosystem is committed to breaking down barriers to scientific research participation, fund allocation, and achievement transformation, and building a distributed scientific research ecosystem that is transparent and traceable, node co-governance and sharing, and win-win for scientific research stakeholders.
+
+# 2.2 Underlying architecture
+Based on Binance Chain (BSC), a modular design is adopted to build a three-layer architecture of "core layer, service layer, and application layer":Core layer: Solidity language develops smart contracts to realize core functions such as scientific research fund allocation, achievement confirmation, voting decision-making, etc., open source and verifiable, and supports transparent storage and access management of scientific research data.
+​
+Service layer: Provide basic services such as distributed data storage, crosschain compatibility, security protection, and anchoring the value of scientific research results, build an open on-chain data sharing protocol, and support IP-NFT management.
+​
+Application layer: covers scenarios such as scientific research participation, project governance, fund management, and achievement transformation, adapting to the needs of scientific research in multiple fields and achieving seamless connection between scientific research stakeholders.
+Core technical support: high TPS ensures high concurrency demand, low gas fees lower the participation threshold, and data is fully linked to ensure traceability, providing a guarantee for the efficient operation of the scientific research ecosystem.
+
+# 2.3 Core Values
+Scientific research inclusiveness: break the restrictions of geography, identity and resources, and achieve the coverage of scientific research resources and services for the whole people;
+​
+Innovation empowerment: provide scientific researchers with financial support, data sharing, achievement confirmation, transformation and realization of full-chain services, focusing on cutting-edge fields to help scientific research breakthroughs;
+​
+Transparent and credible: the whole process is on-chain, smart contracts are automatically executed, and fund allocation, data circulation, and results are open and cannot be tampered with;
+​
+Cogovernance and sharing: With DAO governance as the core, it empowers scientific research stakeholders with decision-making authority to build a positive cycle of "participation-co-construction-sharing".
+​
+Efficient collaboration: Optimize the collaboration mechanism, strengthen cross-regional and interdisciplinary linkage, and improve the efficiency of ecological operation.
+
+
+# 2.4 Core advantages
+Lowthreshold access: Simplify the process of project initiation, fund application, and data sharing, and achieve "everyone can participate and scientific research is easy to implement";
+​
+Strong synergy mechanism: form a double closed loop of "participation-contribution-benefit" and "R&D-confirmation-transformation", and link resources in multiple fields to achieve complementarity;
+​
+Transparency of the whole process: all scientific research behaviors, data and achievements are stored on the chain to prevent black box operations and infringement;
+​
+Solid resource endorsement: The sponsor gathers multiple resources to provide technical, compliance, ecological integration and project docking support;
+​
+Precise Scenario Adaptation: Focus on core areas such as biomedicine, AI, and big data to provide customized solutions.
+
+
+# 03 Ecological Entities and Strategic Cooperation
+
+# 3.1 Introduction of the initiator
+The PTON ecosystem is initiated by the GBF Foundation, which has deep experience in blockchain research and development, scientific research project operation, Web3.0 resource integration, scientific research ecological construction, etc., and provides financial and localized operation guarantees to ensure the technological advancement and ecological sustainability of the project.
+
+# 3.2 Core team strength
+The core team is composed of senior experts in the fields of blockchain technology, scientific research project management, financial risk control, Web3.0 operation, DAO governance and scientific research ecological operation, all of whom have more than 10 years of relevant experience and have led many large-scale scientific research collaboration projects and the construction of the Web3.0 ecosystem. The technical team is proficient in the characteristics of mainstream public chains, the risk control team is good at risk prevention and control of distributed scientific research projects, and the operation team has mature global landing methodologies.
+
+# 3.3 Strategic cooperation and resource support
+The project has reached in-depth cooperation with many Web3.0 communities, scientific research institutions, technical service providers, compliance consulting institutions, biomedical companies, and scientific researcher alliances around the world. At the technical level, we cooperate with security audit institutions to ensure system security, at the compliance level, we work with international consulting teams to ensure global operational compliance, and at the ecological level, we can realize the sharing of user traffic, scientific research resources and real industry resources, and quickly connect scientific research projects and monetization channels in multiple fields.
+
+# 04 Ecological Architecture and Governance System
+# 4.1 Ecosystem system
+Build a five-in-one ecological structure of "technical support, ecological participation, scientific research empowerment, governance decision-making, and value sharing":
+Technical support layer: With Binance Chain smart contracts and Web3.0 technology as the core, it supports the implementation of DeSci's core functions.
+​
+Ecological participation layer: Covering multiple subjects such as researchers, investors, funders, and nodes, activating enthusiasm for participation through incentive mechanisms;
+​
+Scientific research empowerment layer: focus on exclusive scientific research services such as fund application, data sharing, achievement confirmation and transformation and realization;
+​
+Governance decision-making layer: With the DAO organization as the core, ensuring fair and transparent decision-making.
+​
+Value sharing layer: Through the fair distribution mechanism, the two-way sharing of ecological and scientific research values is realized, forming a virtuous circle, and the galaxy, as an important part of the PTON ecosystem, is deeply integrated into the coordinated operation of various architectural levels.
+
+# 4.2 DAO governance mechanism
+The DAO provides DeSci with an equal and transparent participation platform to solve the pain points of the traditional scientific research system, and the core design of the governance mechanism of the PTON ecological DAO is as follows:
+Governance authority: All participants and researchers enjoy equal governance rights, and authority is directly linked to ecological contribution and scientific research value.
+​
+Decision-making process: Adopt the "proposal-review-voting-execution" full-chain process, open for 7 days of voting after proposal review, and the approval rate will take effect when the approval rate reaches 51%.
+​
+Governance Tools: Exclusive DAO governance DApps support multi-chain wallet logins, providing convenient functions such as proposals, voting, and queries, lowering the barrier to participation.
+​
+Core role: allocate funds through decentralized voting, and smart contracts automatically distribute them; Provide on-chain data sharing protocol and IP-NFT support; build a decentralized review platform to shorten the results review cycle; Build a global collaboration platform to democratize governance.
+
+# 4.3 Ecological collaboration and incentive mechanism
+Collaborative mechanism: build a core operation team through the node system, encourage users to participate in scientific research collaboration, give feedback and suggestions, support researchers to produce high-quality results, and strengthen the linkage of global scientific research resources;
+​
+Incentive system: Set up special incentives for participation, contribution, node, governance and scientific research, and issue them as ecological tokens, which can be used for trading, staking, governance voting and consumption in the ecosystem, and improve the tokenomics model.
+
+# 4.4 Pton token distribution mechanism
+The total issuance of PTON is set at 100 million, and the distribution takes into account ecological stability and development vitality:
+Foundation holds 20% (locked for 1 year, and then released linearly in the next 60 months) to ensure the implementation of the long-term strategy;
+​
+20% circulation on the exchange to improve market liquidity;
+​
+10% for community airdrops to empower early supporters;
+​
+10% distribution of mining rewards to incentivize node participation;
+​
+20% invested in ecological construction to support ecological projects;
+​
+20% is dedicated to technical research to drive core innovation.
+
+
+05 Technology Application and Innovation
+
+# 5.1 Core technological innovation
+Smart contract optimization: hierarchical design + built-in verification mechanism to ensure accurate fund allocation and scientific research rights, support modular upgrades, and manage scientific research data access rights and IP-NFT circulation.
+​
+Full-process on-chain storage: scientific research data, behavior and achievement rights and interests are on the chain in real time, sensitive data is encrypted and protected to ensure the integrity and immutability of scientific research records;
+​
+Low-threshold interactive design: Simple DApp interface, users can complete participation, voting and other operations with one click, and researchers can quickly confirm and transform the rights of their achievements.
+​
+Cross-chain collaborative technology: Independently develop cross-chain protocols, support the interoperability of mainstream public chain assets, and broaden the circulation channels of scientific research resources;
+​
+Scientific research achievement confirmation technology: Relying on the immutable characteristics of blockchain, it realizes the accurate control of the time and ownership of scientific research results, and consolidates the foundation for transformation.
+
+
+# 5.2 Safety protection system
+Build a multi-layered security network:
+The smart contract has undergone multiple rounds of audits by a third party to establish a vulnerability emergency response mechanism.
+​
+Data encryption storage + distributed backup, desensitization processing of core scientific research data;
+​
+Deploy DDoS protection, firewalls, and other facilities to monitor cyberattacks in real time.
+​
+"Cold wallet + hot wallet" is used for hierarchical storage, and the multi-signature of hot wallet ensures asset security;
+​
+Strictly implement KYC/AML mechanisms to prevent violations and protect the legitimate rights and interests of participants.
+
+# 06 Ecological Implementation and Application Scenarios
+# 6.1 Core application scenarios
+Scientific research collaboration: integrate fund application, data sharing, and project management, create a one-stop collaboration portal, break down geographical and disciplinary barriers, and promote cross-border and cross-field cooperation;
+​
+Innovation empowerment: Provide scientific research achievement confirmation, value assessment, and compliance transformation services, focusing on the fields of biomedicine and health (infectious disease prevention and control, vaccine development, etc.) and artificial intelligence big data, and provide precise support;
+​
+DAO governance: Covers decisions such as project approval and fund allocation, and ensures fair and efficient results review through a decentralized review platform.
+​
+Cross-chain collaboration: Support the interoperability of mainstream public chain assets, integrate DeSci resources from different public chains, and achieve ecological collaboration.
+
+
+# 6.2 Ecological implementation and promotion
+Regional layout: focus on Southeast Asia, East Asia, and North America first, build a scientific research community and then expand globally;
+​
+Community Operation: Through the multilingual community matrix, regular AMAs, research salons, and other activities are held to popularize the concept of DeSci.
+​
+Resource docking: linkage with Web3.0 communities, scientific research institutions and real industries to achieve resource complementarity and accurate docking of scientific research projects in multiple fields;
+​
+Scientific research recruitment: Cooperate with well-known scientific researchers to launch a settlement plan, provide resources and transformation incentives, and strengthen the ecological scientific research force.
+# 6.3 Ecological participation guarantee
+Operation optimization: Simplify the DApp process, support the user guide for novices and researchers, and lower the technical threshold.
+​
+Service support: 24-hour customer service responds to consultation and feedback, and solves various problems in the process of participation in a timely manner;
+​
+Security and compliance: Multi-level protection protects rights and interests, automatic settlement of smart contracts, and simultaneous application for compliance qualifications, providing a safe and reliable participation environment.
+
+# 6.4 Ecosystem construction and three-to-five-year development plan
+Core ecological composition:
+BTCFI sector: Relying on Bitcoin's secure base and EVM compatibility capabilities, it creates financial tools such as non-custodial staking, lending, and liquidity mining to unlock trillions of BTC liquidity.
+​
+Guessing applications: Build a decentralized fair quiz platform to ensure transparency with on-chain verifiable mechanisms, covering multiple scenarios such as sports and events.
+​
+Galaxy Ecosystem: Build a cross-chain asset interaction network, realize the seamless circulation of multi-chain assets, and build an ecological value community.
+​
+Laboratory: Focus on breakthroughs in the underlying technology of blockchain, focusing on cutting-edge directions such as consensus mechanism optimization and privacy computing;
+​
+Pton protocol: Launched standardized cross-chain communication, asset pledge and other protocol suites to lower the entry threshold for developers;
+​
+Public chain infrastructure: Build a high-performance public chain, with the goal of achieving 10,000-level TPS and second-level confirmation, and be compatible with mainstream developer tool ecosystems.
+Three-Five-Year Development Plan:
+1-2 years (ecological foundation period): Completed the launch of the public chain mainnet and the deployment of the Pton protocol, implemented the core application of BTCFI, attracted more than 50 ecological projects to settle in, and the number of unique addresses on the chain exceeded 1 million.
+​
+3-4 years (scale explosion period): The Galaxy cross-chain network is connected to the mainstream public chain, the daily active users of the guessing sector exceed one million, the laboratory has overcome core privacy technology, and the ecological TVL has exceeded 5 billion US dollars.
+​
+5 years (industry leadership period): Become a benchmark ecology in the BTCFI field, with a scale of more than 10,000 public chain nodes, build a positive cycle of "technology-application-user", rank among the world's top blockchain ecosystems, and promote PTON to become a core hub for cross-chain value interaction.
+
+
+# 07 Strategic Planning and Implementation Path
+# 7.1 Short-term goals (1-6 months): Ecological launch and foundation consolidation
+Technology: Completed the development, auditing, and deployment of core smart contracts, launched the beta version of DApps, and built a basic security system and a confirmation module for scientific research results.
+​
+Market: Launch a global community, acquire 20,000+ core users and 500+ high-quality scientific researchers, and complete compliance filing in core regions.
+​
+Ecology: Release DAO governance rules, recruit ecological nodes, implement basic incentive scenarios and scientific research empowerment preliminary functions, and promote the infrastructure construction of the galaxy as a core component of the PTON ecosystem.
+
+# 7.2 Medium-term Goals (7-18 months): Ecological expansion and scale improvement
+Technology: Launched the official version of the DApp to realize the implementation of cross-chain technology, optimize contract performance and scientific research achievement transformation functions;
+​
+Market: The number of users exceeded 500,000+, the core nodes reached 1,000+, the scale of scientific researchers exceeded 10,000+, and expanded to 3-5 key regions;
+​
+Ecosystem: Enrich application scenarios, reach cooperation with 10+ Web3.0 projects, 5+ real industries, and 3+ large scientific research institutions, deepen the implementation of scenarios in key areas, and improve the functional implementation and collaboration mechanism of the galaxy in the PTON ecosystem.
+
+# 7.3 Long-term goals (19 36 months): Global leadership and value implementation
+Market: To become the world's leading decentralized scientific research and innovation empowerment platform, with more than 10 million users and 100,000+ scientific researchers, covering 100+ countries;
+​
+Technology: Explore the integration of AI and DAO, build an exclusive Layer2 expansion solution, and optimize the matching technology for scientific research value evaluation and achievement transformation.
+​
+Ecology: Forming a perfect closed loop, tokens have become the core value carrier in the field of Web3.0 scientific research, serving more than 1 million small and medium-sized enterprises and scientific research-related groups, becoming a benchmark for the integration of global scientific research ecology and decentralized finance, promoting the galaxy to become a highly influential core sector in the PTON ecosystem, and helping the ecological global leading position to be established.
+
+
+# 08 Risk Control and Compliance Layout
+# 8.1 Regulatory compliance risk response
+Establish a professional compliance team to track changes in global regulatory policies: Apply for compliance qualifications and related licenses by region:; Strictly implement KYC/AML mechanisms and connect with anti-money laundering databases. Truthfully disclose risks, clarify token utility token attributes, and standardize the transformation process of scientific research results. Guide users and researchers to comply with local laws and regulations.
+
+# 8.2 Prevention and control of technical security risks
+Improve the contract development and audit process, and conduct regular third-party testing: optimize the security protection system, deploy advance monitoring tools, and focus on ensuring the security of scientific research data and achievements; set up a bug reward fund and establish a rapid response and repair mechanism; Deploy multi-regional disaster recovery data centers and conduct regular disaster recovery drills.
+
+# 8.3 Market and operational risk response
+Strengthen ecological value construction and scientific research ecological stickiness, and guide users to participate rationally; Build differentiated ecological barriers and pay close attention to industry competition dynamics and changes in scientific research demand. Optimize product experience and services, improve incentive mechanisms, and enhance the stickiness of users and researchers; Establish a diversified cooperation system, clarify the distribution of cooperation rights, responsibilities and benefits, and ensure the stability of the channels for the transformation of scientific research results.
+
+# 09 Vision and Mission
+# 9.1 Core mission and value orientation
+Core mission: With Web3.0 technology and DAO governance as the core, build a fair, transparent, and inclusive decentralized scientific research ecosystem, create an efficient and safe innovation value empowerment system, allow global users to enjoy scientific research resources equally, and ensure that every scientific research value is fairly rewarded, and promote the globalization of scientific research inclusiveness and innovation empowerment.
+Value orientation: Adhere to the principle of "technology for good, ecological win-win, fairness and inclusiveness, and innovation empowerment", let Web3.0 technology serve the public and researchers, return scientific research to its essence, and promote global scientific research collaboration, fair distribution of resources, and innovation ecological prosperity.
+
+# 9.2 Long-term vision and industry impact
+Long-term vision: To become the world's leading dual benchmark for decentralized scientific research and innovation empowerment in the Web3.0 era, deeply connect digital assets, the real economy and scientific research innovation, build an open and inclusive global scientific research collaboration and value sharing network, and promote the DeSci model to become the mainstream collaboration paradigm in the global scientific research field.
+Industry impact: Break the barriers to traditional scientific research participation and the dilemma of achievement transformation, and provide a replicable integration model of scientific research inclusiveness and innovation empowerment. Promote the popularization of DAO governance in the field of scientific research, promote the deep integration of blockchain with the real economy and scientific research industry, change the global scientific research resource allocation pattern, and stimulate the vitality of scientific research and innovation.
+
+
+# 10 Disclaimer
+1. This white paper is for reference only and does not constitute investment advice, income commitments or legal offers, but is only a description of the project's technical and ecological planning.
+​
+2. The project is based on blockchain technology, and there are uncertainties such as technology iteration, market fluctuations, and regulatory changes, and users and researchers need to be fully aware of the risks.
+​
+3. The decentralized scientific research industry is highly risky, and users need to make independent decisions based on their own cognition and risk tolerance.
+​
+4. Users and researchers must abide by local laws and regulations, and illegal capital inflows, infringement of achievements and other violations are strictly prohibited, otherwise they will bear legal responsibility.
+​
+5. The content of this white paper may be adjusted, and the final interpretation right belongs to the project party, the specific official announcement shall prevail, and the relevant decision-making risks shall be borne by the actor.
+​
+6. The blockchain and decentralized scientific research industry is still in the development stage, there are unknown risks, the platform tries its best to prevent and control but cannot completely avoid it, and users and researchers need to participate rationally.
+
+
+
+Thank you for watching
+
+
+
